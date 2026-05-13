@@ -36,7 +36,7 @@ STS-B
 STS-12 to STS-16 under the leave-one-year-out protocol
 ```
 
-The main STS experiments use GloVe word embeddings, a trainable projection layer, amplitude encoding, parameterized textual feature learning circuits, and similarity estimation through the quantum overlap between learned sentence states.
+The main STS experiments use word embeddings, amplitude encoding, parameterized textual feature learning circuits, and similarity estimation through the quantum overlap between learned sentence states.
 
 ### Classical lexical baselines
 
@@ -147,15 +147,15 @@ The exact script names may differ depending on the final folder organization. Pl
 
 ## Environment
 
-A minimal Python environment should include:
+A Python environment should include:
 
 ```text
+pennylane
 numpy
 pandas
 scipy
 scikit-learn
 torch
-pennylane
 transformers
 ```
 
